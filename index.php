@@ -2,10 +2,10 @@
 /*This is simple login page*/
 session_start();
 require_once('connection.php');
-if(isset($_SESSION['user']))
+/*if(isset($_SESSION['user']))
 {
     header('Location:home.php');
-}
+}*/
 
 if (isset($_POST['username']) && isset($_POST['password']))
 {
